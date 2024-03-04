@@ -1,6 +1,15 @@
 # ML Project Setup Template
 
-This is a template for setting up a new machine learning project. It includes a basic project structure, a Makefile for running common commands, and a Dockerfile for running the project in a container.
+This is a template for setting up a new machine learning project. It includes automation features to make sure our code style is clean and unit testing.
+
+So here is our set of tools to set up:
+
+- `poetry`: Sort out virtual environments for good, all your project definitions in `pyproject.toml`.
+- `black`: You can have any code style until it is black. Stop worrying about formatting your code.
+- `ruff`: New blazing fast linter, anything that black doesn't care about will be fixed here.
+- `pytest`: To unit test your code.
+- `pre-commit-hooks`: Automate all of the above and forget about them.
+- `GitHub Actions`: Run these on the remote as well, just to be sure.
 
 ## Environment setup
 
@@ -26,6 +35,8 @@ pre-commit install
 ```
 
 ## Running the project
+
+Feel free to create your own python scripts and run them using the following command:
 
 ```bash
 poetry run python <python_script.py>
