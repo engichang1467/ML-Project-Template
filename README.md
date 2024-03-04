@@ -33,4 +33,4 @@ poetry run python <python_script.py>
 
 ## References
 
--[CQ4DS - Python project from scratch with poetry, black, ruff, pytest, pre-commit-hooks and GitHub Actions in 15 minute tops](https://laszlo.substack.com/p/cq4ds-python-project-from-scratch)
+- [CQ4DS - Python project from scratch with poetry, black, ruff, pytest, pre-commit-hooks and GitHub Actions in 15 minute tops](https://laszlo.substack.com/p/cq4ds-python-project-from-scratch)
